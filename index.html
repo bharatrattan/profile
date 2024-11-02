@@ -28,10 +28,13 @@ img.rounded-corners {
 			  margin-right: 3%;
 			  margin-top: 5%;
 			}
-		.content{
-			margin-left: 8%;
-			margin-top: 6%;
-		}	
+}
+
+.belowcontent{
+	margin-left: 12%;
+	margin-top: 3%;
+	font-size: 18px;
+	float: left;
 }
 
 .content{
@@ -46,12 +49,15 @@ img.rounded-corners {
     margin-bottom: 1em !important;
 }
 
-.belowcontent{
-	margin-left: 12%;
-	margin-top: 3%;
-	font-size: 18px;
-	float: left;
-}
+@media (max-width: 479px) {
+		.belowcontent{
+			margin-left: 6%;
+		}
+		.content{
+			margin-left: 10%;
+		}
+	}
+
 
 .belowcontent li {
   margin: 10px 0;
