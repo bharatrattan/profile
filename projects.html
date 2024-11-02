@@ -2,36 +2,18 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="navbarstyle.css"/>
 <style type="text/css">
     
-.topnav {
-  overflow: hidden;
-  background-color: #C70039;
-}
 
-.topnav a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px 25px;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #8e9810;
-  color: white;
-}
 ul {
     margin-top: -1px;
 }
@@ -69,14 +51,21 @@ ul li {
 <body>
 
 
-<div class="topnav">
-  <a style="margin-right: 4%;" href="activities.html">Other Activities</a>
-  <a href="publications.html">Publications</a>
-  <a href="awards.html">Awards</a>
-  <a class="active"  href="projects.html">Research Projects</a>
-  <a href="qualifications.html">Qualifications</a>
-  <a href="index.html">About</a>
-</div>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark" >
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-left: 40%;">
+    <div class="navbar-nav" >
+      <a class="nav-item nav-link " href="index.html" >About</a>
+   <a class="nav-item nav-link" href="qualifications.html">Qualifications</a>
+      <a class="nav-item nav-link active" href="projects.html">Research Projects</a>
+   <a class="nav-item nav-link" href="awards.html">Awards</a>
+      <a class="nav-item nav-link" href="publications.html">Publications</a>
+      <a class="nav-item nav-link" href="activities.html">Other Activities</a>
+    </div>
+  </div>
+</nav>
 
  <div class = "content"> 
  <br/>
