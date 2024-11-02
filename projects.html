@@ -35,10 +35,44 @@ ul {
    margin-top: 3%;
    font-style: italic;
    color: #008CBA;
+   width:32%;
+   font-size: 21px;
+   font-weight: bold;
+   float: left;
+}
+
+.mainheading2{
+   margin-top: 3%;
+   font-style: italic;
+   color: #008CBA;
    width:60%;
    font-size: 21px;
    font-weight: bold;
+}
 
+.duration{
+ float: left;
+ margin-top: 44px;
+}
+
+.mobile-br {
+   display:none;
+}
+
+@media (max-width: 479px) {
+  .mainheading{
+    width:100%;
+  }
+  .mainheading1{
+    width:100%;
+  }
+  .duration{
+     margin-top: -27px;
+     margin-left: 20%;
+    }
+    .mobile-br {
+    display:block;
+    }
 }
 ul li {
  padding: 3px 0px; 
@@ -105,11 +139,11 @@ ul li {
 </p>
 
 <p>
-     <div class = "mainheading1" style="float: left;width: 32%;">Involved in projects during visiting scholar </div>
+     <div class = "mainheading1">Involved in projects during visiting scholar </div>
   
-      <div style="float: left; margin-top: 44px"><I> (June 23 – Oct 23)</I></div>
-     <br/><br/><br/>
-    
+      <div class = "duration"><I> (June 23 – Oct 23)</I></div>
+      <br/><br/><br/>
+      <br class="mobile-br">
        <b> 1) Influence of biochar-amended soil on plant microbial fuel cell (PMFC)</b>
             <ul>
                 <li>Evaluate the soil water characteristics of biochar-aided plant microbial fuel cell</li>
@@ -126,7 +160,7 @@ ul li {
 </p>
 
 <p>
-<div class = "mainheading1">Master's thesis</div>
+<div class = "mainheading2">Master's thesis</div>
     <b>Influence of water-absorbing polymer on water retention characteristics of cohesive and cohesionless soil</b>
      <I>(May 18 – May 19)</I>
     <ul>
